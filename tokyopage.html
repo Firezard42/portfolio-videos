@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo do Tokyo</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Unbounded:wght@200..900&display=swap');
+        
+        body {
+            background-image: linear-gradient(to top, #B50B17,black);
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        #boton {
+            position: fixed;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #boton:hover {
+            transform: translateX(-50%) scale(1.1);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        footer {
+        font-family: "Jersey 15", serif;
+        font-weight: 200;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        position: fixed; /* Fixa o footer no final da página */
+        bottom: 0; /* Alinha na parte inferior */
+        left: 0;
+        width: 100%; /* Ocupa toda a largura da tela */
+        background-color: #9D0913;; /* Combina com o tema do site */
+        padding: 3px 0;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Adiciona um leve destaque */
+    }
+
+    footer > p a {
+        text-decoration: none;
+        color: white;
+    }
+
+    footer > p a:hover {
+        color: #BC317F;
+        transform: translateX(-50%) scale(1.1);
+    }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <iframe width="720" height="480" src="https://www.youtube.com/embed/Qwx-BHO4qek?si=rn0Tjq5JyLlEdnFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <a href="youtube.html"><img id="boton" src="imagens/voltarbotao.png" alt=""></a>
+    </main>
+    <footer>
+        <p>Site criado por <a href="https://www.instagram.com/netto_ivald3/" target="_blank">Ivaldo Netto</a></p>
+    </footer>
+</body>
+</html>

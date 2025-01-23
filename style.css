@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Unbounded:wght@200..900&display=swap');
+
+
+:root {
+    
+}
+
+
+body {
+    background-color: #B50B17;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#ivaldo {
+    font-family: "Unbounded", serif;
+    font-weight: 500px;
+    font-size: 100px;
+    color: white;
+    font-style: bold;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+main {
+    min-width: 280px;
+    max-width: 800px;
+}
+
+main p {
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    font-size: 50px;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    border-radius: 15px;
+    padding: 13px;
+    font-size: 30px;
+    font-family: "Unbounded", serif;
+    color: #B50B17;
+    width: 100%;
+ }
+
+main a:hover {
+    color: #BC317F;
+    text-shadow: #cf2786;
+    cursor: pointer;
+}
+
+footer {
+    font-family: "Jersey 15", serif;
+    font-weight: 200;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    position: fixed; /* Fixa o footer no final da página */
+    bottom: 0; /* Alinha na parte inferior */
+    left: 0;
+    width: 100%; /* Ocupa toda a largura da tela */
+    background-color: #9D0913; /* Combina com o tema do site */
+    padding: 3px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Adiciona um leve destaque */
+}
+
+footer > p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p a:hover {
+    color: #BC317F;
+    transform: translateX(-50%) scale(1.1);
+}
